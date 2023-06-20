@@ -7,7 +7,7 @@ The dataset used for training the model contains a total of 8000 images, with 40
 # Model Architecture
 The CNN model architecture consists of two convolutional layers followed by max pooling layers, and a fully connected layer. The key details of the model architecture are as follows:
 
-# Convolutional Layer 1:
+Convolutional Layer 1:
 
 Number of filters: 32
 Filter size: 3x3
@@ -17,23 +17,23 @@ Max Pooling Layer 1:
 Pool size: 2x2
 Strides: 2
 
-# Convolutional Layer 2:
+Convolutional Layer 2:
 
 Number of filters: 32
 Filter size: 3x3
 Activation function: ReLU
 
-# Max Pooling Layer 2:
+Max Pooling Layer 2:
 
 Pool size: 2x2
 Strides: 2
 
-# Fully Connected Layer:
+Fully Connected Layer:
 
 Number of units: 128
 Activation function: ReLU
 
-# Output Layer:
+Output Layer:
 
 Activation function: Sigmoid (Binary classification)
 
